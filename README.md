@@ -56,3 +56,4 @@ GET /jobs/details/{id}
 - NPM
 - Exress.js
 - Axios
+- JWT
