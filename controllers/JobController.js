@@ -8,7 +8,7 @@ class JobController {
     location = !location ? "" : "location=" + location;
     full_time = !full_time
       ? ""
-      : "full_time=" + (full_time === "true" || full_time === "");
+      : "full_time=" + (full_time === "true");
 
     // console.log(`${apiURL}?${description}&${location}&${full_time}`);
     try {
