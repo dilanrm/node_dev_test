@@ -34,6 +34,10 @@ GET /jobs
 
 optionally, you may append the `location=[location]`,`description=[description]`, and `full_time=[full_time]` as search parameters.
 
+```http
+GET /jobs??description=python&location=berlin&full_time=true
+```
+
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `description` | `string` | A search term, such as "ruby" or "java". |
